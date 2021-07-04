@@ -7,6 +7,16 @@
     "type": "git",
     "url": "git+https://github.com/TheoryLabs/Better-Errors-Common.git"
   },
+  "bugs": {
+    "url": "https://github.com/TheoryLabs/Better-Errors-Common/issues"
+  },
+  "homepage": "https://github.com/TheoryLabs/Better-Errors-Common#README",
+  "keywords": [
+    "theorylabs",
+    "better-errors",
+    "errors",
+    "better-errors-common"
+  ],
   "private": false,
   "license": "MIT",
   "files": [
