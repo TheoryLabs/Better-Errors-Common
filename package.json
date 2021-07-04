@@ -1,0 +1,31 @@
+{
+  "name": "@theorylabs/better-errors-common",
+  "version": "0.0.1",
+  "description": "TODO",
+  "author": "Branden Dane (https://TheoryLabs.dev) <Dane@TheoryLabs.dev>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoryLabs/Better-Errors-Common.git"
+  },
+  "private": false,
+  "license": "MIT",
+  "files": [
+    "./dist/*",
+    "./dist/**",
+    "./dist/**/*"
+  ],
+  "source": "src/index.js",
+  "main": "dist/better-errors-common.cjs",
+  "module": "dist/better-errors-common.modern.js",
+  "exports": {
+    ""
+  },
+  "scripts": {
+    "watch": "microbundle --target 'node' watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle --target 'node'"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.3"
+  }
+}
